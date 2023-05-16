@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 70%;
+    margin: 0 auto;
+    border-bottom: 1px solid #020202 ;
+}
+ul{
+    list-style: none;
+}
+.Header_Logo{
+    font-family: 'Monoton', cursive;
+    font-weight: 700;
+    font-size: 23px;
+}
+.Header_Components{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    font-family: 'Jura', sans-serif;
+    color: gray;
+    font-weight: 600;
+    font-size: 15px;
+}
+.Header li:hover{
+    cursor: pointer;
+    
+}
+.Header_Components li:hover{
+    background-color: #000000;
+    color: white;
+}
+.Header_Components li:hover::after {
+  content: ''; /* adiciona conteúdo vazio após o link */
+  display: block; /* define como bloco */
+  position: absolute; /* define a posição absoluta em relação ao link */
+  width: 2%; /* define a largura como 100% do link */
+  margin-top: 2px;
+  height: 2px; /* define a altura da linha */
+  bottom: 2; /* posiciona a linha na parte inferior do link */
+  background-color: #000000; /* define a cor da linha */
+  }

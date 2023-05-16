@@ -1,0 +1,51 @@
+
+.landingPage_iten{
+    margin: 0px auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 80vw;
+    margin-left: 140px;
+    position: absolute;
+}
+.landingPage_iten h2{
+    font-family: "Lato";
+    font-size:3.2rem;
+    width: 40%;
+    
+    color: #140433;
+    
+}
+.landingPage_iten h5{
+    font-weight:400 ;
+    font-family: 'Proxima Nova';
+    color: #ffffff;
+    width: 40%;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.button_ladding{
+    margin-top: 0px;
+    display: flex;
+    width: 20%;
+    margin-right: 120px;
+}
+.button_ladding button{
+    width: 260px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0c0c0c;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.button_ladding button:hover{
+    color: rgb(88, 88, 141);
+    transform: scale(1.1);
+}
