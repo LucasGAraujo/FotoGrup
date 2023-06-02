@@ -1,6 +1,8 @@
 import Header from './Components/Header'
 import Section from './Components/Section'
+
 import { useState, useEffect } from 'react';
+
 import foto1 from '../src/Components/StyleComponents/imgComponents/background.jpg'
 import foto2 from '../src/Components/StyleComponents/imgComponents/background1.jpg'
 import foto3 from '../src/Components/StyleComponents/imgComponents/background2.jpg'
@@ -28,12 +30,12 @@ function AppGeral() {
   return (
     <>
      <main className={`Main_background ${loading ? 'Main_background--hidden' : ''}`}
-        style={{ backgroundImage: `url(${backgroundImage})`, transition: 'background-image 1s ease-in-out' }}
+        style={{ backgroundImage: `url(${backgroundImage})`, transition: 'background-image 6s ease-in-out' }}
         onLoad={handleImageLoad}>
       <Header/>
       <Section/>
     </main>
-    
+
     </>
    
   );
