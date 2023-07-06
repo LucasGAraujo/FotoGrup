@@ -45,3 +45,33 @@ ul{
   bottom: 2; /* posiciona a linha na parte inferior do link */
   background-color: #000000; /* define a cor da linha */
   }
+  @media screen and (max-width: 798px) {
+    .Header {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .Header_Logo {
+        margin-bottom: 10px;
+    }
+
+    .Header_Components {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .Header_Components li {
+        margin: 5px;
+    }
+}
+@media screen and (max-width: 620px) {
+    .Header {
+        width: 100%;
+        flex-direction: column;
+        height: 20vh;
+        justify-content: space-between;
+    }
+    .Header_Components{
+        width: 100%;
+    }
+}
